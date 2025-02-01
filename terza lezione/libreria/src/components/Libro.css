@@ -1,0 +1,20 @@
+.libro-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-libro{
+    flex: 1;
+}
+
+
+
+
+.warning-text{
+    color: red;
+
+}
+
+.success-test{
+    color: green;
+}
+
