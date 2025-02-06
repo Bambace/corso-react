@@ -1,0 +1,20 @@
+.card{
+    background-color: rgb(141, 143, 155);
+    color: green;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 3px black;
+    box-shadow: 0px 4px 10xp rgba(0, 0, 0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.2); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+
+.btn{
+    background-color: green;
+}
