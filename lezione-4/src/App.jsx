@@ -121,37 +121,6 @@ function App() {
        ))
        }
       </Libreria>
-{/* 
-      <div className="map">
-        {libri.map((libro) => (
-          <Card key={libro.id}>
-            <Libro
-              titolo={libro.titolo}
-              autore={libro.autore}
-              genere={libro.genere}
-              pagine={libro.pagine}
-              quantita={libro.quantita}
-            />
-          </Card>
-        ))}
-      </div> */}
-
-
-      {/* <div className="filter">
-          {libri
-            .filter((libro) => libro.genere === "Fantasy")
-            .map((libro) => (
-              <Card key={libro.id}>
-                <Libro
-                  titolo={libro.titolo}
-                  autore={libro.autore}
-                  genere={libro.genere}
-                  pagine={libro.pagine}
-                  quantita={libro.quantita}
-                />
-              </Card>
-            ))}
-        </div> */}
     </>
   );
 }
