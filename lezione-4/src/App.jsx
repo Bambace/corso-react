@@ -12,7 +12,7 @@ function App() {
       genere: "Mistero",
       pagine: 512,
       quantita: 5,
-      img: "https://m.media-amazon.com/images/I/51pOONHwjHL.jpg",
+      
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function App() {
       genere: "Distopia",
       pagine: 328,
       quantita: 3,
-      img: "https://m.media-amazon.com/images/I/41ZMQDHLBZL.jpg",
+      
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ function App() {
       genere: "Fantasy",
       pagine: 1216,
       quantita: 7,
-      img: "https://m.media-amazon.com/images/I/91Q5dCjc2KL.jpg",
+      
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ function App() {
       genere: "Romanzo",
       pagine: 432,
       quantita: 4,
-      img: "https://m.media-amazon.com/images/I/81OthjkJBzL.jpg",
+    
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ function App() {
       genere: "Fiaba",
       pagine: 96,
       quantita: 10,
-      img: "https://m.media-amazon.com/images/I/61utX8kBDlL.jpg",
+     
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ function App() {
       genere: "Avventura",
       pagine: 863,
       quantita: 2,
-      img: "https://m.media-amazon.com/images/I/81tbxGZKp3L.jpg",
+      
     },
     {
       id: 7,
@@ -66,7 +66,7 @@ function App() {
       genere: "Avventura",
       pagine: 635,
       quantita: 6,
-      img: "https://m.media-amazon.com/images/I/81A-mvlo+QL.jpg",
+      
     },
     {
       id: 8,
@@ -75,7 +75,7 @@ function App() {
       genere: "Poesia epica",
       pagine: 798,
       quantita: 1,
-      img: "https://m.media-amazon.com/images/I/81PKYK9qEoL.jpg",
+      
     },
     {
       id: 9,
@@ -84,7 +84,7 @@ function App() {
       genere: "Fantasy",
       pagine: 336,
       quantita: 8,
-      img: "https://m.media-amazon.com/images/I/81iqZ2HHD-L.jpg",
+      
     },
     {
       id: 10,
@@ -93,7 +93,7 @@ function App() {
       genere: "Romanzo",
       pagine: 180,
       quantita: 5,
-      img: "https://m.media-amazon.com/images/I/71FTb9X6wsL.jpg",
+      
     },
   ];
   
