@@ -8,8 +8,7 @@ export default function Card({ children }){
                
         <div className="card">
             {children}
-            
-            <button className="btn">Comprare</button>
+          
         </div>
 
 

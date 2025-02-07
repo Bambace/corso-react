@@ -1,4 +1,4 @@
-export default function Libro({ titolo, autore, genere, nPagine, quantita,  }) {
+export default function Libro({ titolo, autore, genere, nPagine, quantita  }) {
   return (
     <>
       <p>Titolo: {titolo}</p>
