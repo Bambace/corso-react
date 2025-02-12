@@ -1,0 +1,20 @@
+.song-card{
+  border-radius: 1em;
+  margin: 2em ;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* verticale */
+  padding: 1em;
+  box-shadow: 5px 5px 1em #b0abab;
+
+}
+.song-data {
+   width: 60%;
+  font-size: 0.8em; 
+  
+}
+
+

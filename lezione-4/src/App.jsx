@@ -102,6 +102,7 @@ function App() {
 
   const isFantasyFiltered = false;
 
+
   return (
     <>
       <Libreria>
@@ -116,6 +117,8 @@ function App() {
           pagine={libro.pagine}
           quantita={libro.quantita} 
           />
+          {/* potrebbe essere <Libro={libro}/> 
+          si desestructuro en Libro.jsx y pongo props */}
           <LibroImg/>
         </Card>
        ))

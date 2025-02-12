@@ -1,0 +1,44 @@
+.libro-card{
+    border-radius: 1em;
+    margin: 1em auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* verticale */
+    padding: 1em;
+    box-shadow: 5px 5px 1em #b0abab;
+}
+
+.card-active{
+    background-color: lightblue;
+}
+
+.card-inactive{
+    background-color: lightcoral;
+}
+
+.libro{
+    width: 60%;
+    font-size: 0.8em;
+}
+
+
+.libro span{
+    color: blue;
+    font-weight: bold;
+}
+.libro-image {
+    text-align: center;
+    width: 30%;
+  }
+.libro-image img {
+    width: 130px;
+    transition: all 0.5s;
+  }
+.libro-image img:hover {
+    transform: scale(1.05);
+  }
+
+  

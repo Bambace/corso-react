@@ -1,0 +1,10 @@
+button {
+    margin: 1em auto;
+    width: 150px;
+    height: 30%;
+    color: white;
+    background-color: #2a2727;
+    border-radius: 1em; 
+    margin-left: 1em;
+  }
+  

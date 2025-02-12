@@ -1,0 +1,9 @@
+ img{
+    width: 30vh;
+    text-align: center;
+    transition: all 0.9s;
+}
+img:hover{
+    transform: scale(2.0);
+    rotate: 360deg;}
+
