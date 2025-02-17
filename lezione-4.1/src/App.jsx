@@ -105,9 +105,6 @@ function App() {
 : libri;
 
 
-function handleClick(){
-  alert(`stai comprando il libro ${libro.id}`)
-}
 
   return (
     <>

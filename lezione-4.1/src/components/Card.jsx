@@ -1,5 +1,3 @@
-import Button from './lezione-4.1/src/components/Button';
-
 import './Card.css';
 
 export default function Card({isAviable,children}){
@@ -19,7 +17,7 @@ export default function Card({isAviable,children}){
             'libro-card card-inactive'
         }>
             {children}
-        <Button/>
+       
         </div>
         
         </>
