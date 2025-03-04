@@ -1,0 +1,19 @@
+.card-contact{
+    background-color: red;
+    margin: 30px 15px ;
+    padding: 25px 40px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction:column;
+}
+
+.btns-container{
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+    height: 40px;
+}
+.btns-container span{
+    font-size: 30px;
+}
