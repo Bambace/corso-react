@@ -1,0 +1,30 @@
+
+
+.counter{
+ padding: 20px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+.counter-not-work{
+  background-color: red;
+}
+
+.counter-work{
+  background-color: green;
+}
+
+
+section.light{
+  background-color: rgb(220, 236, 241);
+  
+}
+
+section.dark{
+  background-color: darkblue;
+
+}
+
+
+
+
