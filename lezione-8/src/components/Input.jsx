@@ -15,6 +15,10 @@ function handleChangePass(e){
     //console.log(e.target.value)
      setPassowrd(e.target.value)
  }
+ 
+ function handleClick(e){
+    console.log(e);
+ }
 
 
   return (
@@ -24,6 +28,8 @@ function handleChangePass(e){
     <br />
     <label>password: </label>
     <input type="password" value={password} onChange={handleChangePass} />
+    <br />
+    <button onClick={handleClick}> Click!</button>
    </>
   )
 }

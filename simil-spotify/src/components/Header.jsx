@@ -6,7 +6,7 @@ export default function Header() {
       <header>
         {
           <img
-            src="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg"
+            src="https://www.vectorlogo.zone/logos/spotify/spotify-icon.svg"
             alt="logo-spotify"
           />
         }
