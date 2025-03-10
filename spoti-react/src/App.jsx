@@ -83,24 +83,35 @@ function App() {
     },
   ];
 
-  const [isDarkMode,setDarkMode]= useState(false)
+  const [isDarkMode,setDarkMode]= useState(false);
   
 
   return (
     <>
+    <div children={isDarkMode ? 'dark-mode': 'light-mode'}>
+      <BtnDarkMode isDarkMode={isDarkMode} setDarkMode={setDarkMode}/>
+
+
+
       <Navbar  />
 
    
-      <button  onClick={() => setDarkMode(!isDarkMode)}>
+      {/* <button  onClick={() => setDarkMode(!isDarkMode)}>
         {isDarkMode ?  <MdSunny style={{width: '20px', height:'20px'}}/> : <FaMoon style={{width: '20px', height:'20px',}}/>}
-      </button>
-  
+      </button> */}
+    
+    <div className="card-container">
       {generi.map((genero) => (
         <Card key={genero.id}>
           <Generi genero={genero} description={genero.descripcion}/>
           <GeneroImg image={genero.image} />
         </Card>
       ))}
+      </div>
+
+
+
+      </div>
     </>
   );
 }

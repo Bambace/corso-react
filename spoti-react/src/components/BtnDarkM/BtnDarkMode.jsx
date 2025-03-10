@@ -1,17 +1,20 @@
 import { MdSunny } from "react-icons/md";
 import { FaMoon } from "react-icons/fa"
-import { useState } from "react";
 
 
-export default function BtnDarkMode() {
-  const [isDarkMode,setDarkMode]= useState(false)
+
+export default function BtnDarkMode({isDarkMode,setDarkMode}) {
+
   
   return (
     <>
     <button  onClick={()=>setDarkMode(!isDarkMode)}>
 
-  { isDarkMode ? (<FaMoon />) : (<MdSunny />)
-  }
+    {isDarkMode ? (
+        <MdSunny style={{ width: "20px", height: "20px" }} />
+      ) : (
+        <FaMoon style={{ width: "20px", height: "20px" }} />
+      )}
 
     </button>
       

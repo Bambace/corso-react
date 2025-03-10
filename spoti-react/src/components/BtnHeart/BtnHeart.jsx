@@ -7,7 +7,7 @@ export default function BtnHeart() {
   return (
     <>
 
-     <button onClick={()=>setIsLike(!isLike)}>
+     <button style={{height:'30px', width:'30px'}} onClick={()=>setIsLike(!isLike)}>
    
         { isLike ? (<FaHeart />)
         :(<FaRegHeart />)}
