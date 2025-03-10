@@ -17,7 +17,7 @@ function handleChangePass(e){
  }
  
  function handleClick(e){
-    console.log(e);
+    alert(`Benvenuto ${username}`);
  }
 
 
@@ -29,7 +29,7 @@ function handleChangePass(e){
     <label>password: </label>
     <input type="password" value={password} onChange={handleChangePass} />
     <br />
-    <button onClick={handleClick}> Click!</button>
+    <button onClick={handleClick}> login</button>
    </>
   )
 }

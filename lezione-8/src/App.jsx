@@ -4,6 +4,7 @@ import Counter from "./components/Counter";
 import { GiH2O } from "react-icons/gi";
 import Coffe from "./components/Coffe";
 import Input from "./components/Input";
+import Test from "./components/Test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,12 @@ function App() {
   const [isVisible, setIsVisible] = useState(true);
   return (
     <>
+
+
+    <Test/>
+
+    <hr />
+
       <Input />
 
 
