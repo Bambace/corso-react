@@ -1,15 +1,15 @@
 
 /* Modo claro (light mode) */
 .light-mode {
-  background-color: white;
+  background-color: yellow;
   color: black;
-}
+} 
 
 /* Modo oscuro (dark mode) */
-.dark-mode {
-  background-color: black;
+ .dark-mode {
+  background-color: red;
   color: white;
-}
+} 
 
 h2{
 color: green;}
@@ -19,8 +19,6 @@ color: green;}
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-   background-color: white;
-   color: black;
  }   
   
  .card-container {

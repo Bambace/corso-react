@@ -2,7 +2,8 @@ import "./Navbar.css";
 import { GrSpotify } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
 
-export default function Navbar(setDarkMode) {
+
+export default function Navbar() {
   return (
     <>
       <div className="nabvar">
@@ -12,8 +13,8 @@ export default function Navbar(setDarkMode) {
          <h1><FaReact className="iconsNav" style={{padding:'5px'}} />
          Spoty-React
          <GrSpotify className="iconsNav"style={{padding:'5px'}} /> </h1>
-
-       
+         
+        
         </div>
     </>
   );

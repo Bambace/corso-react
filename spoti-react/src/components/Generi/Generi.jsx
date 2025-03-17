@@ -8,9 +8,9 @@ export default function Generi({ genero, description }) {
         onMouseLeave={()=>setIsVisible(false)}>
 
           {isvisible ? (
-        <span>{description }</span>):
-
-         (<h2>{genero.genero}</h2>)}
+        <p>{description }</p>):
+            
+         (<h2 >{genero.genero}</h2>)}
     
 
         </div>
