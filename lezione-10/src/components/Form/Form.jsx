@@ -19,3 +19,5 @@ export default function Form({ titolo, regista, durata, locandina,onChangeInput}
     </>
   );
 }
+
+

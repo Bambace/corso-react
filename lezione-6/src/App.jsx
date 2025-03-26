@@ -78,14 +78,12 @@ function App() {
       ))}
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Button type="add" />
-      </div> */}
-      
+      </div>  */}
 
-     {/* <CardContactDetails contact={contacts[0]}/> */}
+      {/* <CardContactDetails contact={contacts[0]}/>  */}
 
-     {/* <CardContactEdit contact={contacts[0]}/> */}
-
-     <CardContactAdd contact={contacts[8]}/>
+      {/* <CardContactEdit contact={contacts[0]}/> */}
+      <CardContactAdd contact={contacts[8]} />
     </>
   );
 }
