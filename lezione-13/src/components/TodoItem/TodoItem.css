@@ -1,0 +1,19 @@
+.todo{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 6px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.todo:hover{
+    background-color: rgb(34, 30, 30);
+    color: white;
+}
