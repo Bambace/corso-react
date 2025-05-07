@@ -14,15 +14,15 @@ function App() {
   return (
     <>
 
-    {/* <Test/> */}
+     {/* <Test/> */}
 
-    {/* <Fetch/> */}
+      <Fetch/>  
 
-    {/* <Clock/> */}
+     {/* <Clock/>  */}
 
-    {/* <Converter/> */}
+     {/* <Converter/>  */}
 
-    <Timer/>
+    {/* <Timer/> */}
 
 
     </>
