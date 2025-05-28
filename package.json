@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "gandalorem": "file:../Gandalorem/gandalorem",
     "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "you-shall-not-copy": "^0.0.2"
   }
 }
