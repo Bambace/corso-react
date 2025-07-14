@@ -1,0 +1,13 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#3F2346",
+        "titleBar.activeBackground": "#583061",
+        "titleBar.activeForeground": "#FBF9FC"
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.suggest.selectionMode": "whenTriggerCharacter"
+}

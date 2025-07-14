@@ -1,0 +1,39 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+.card-movie{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    align-items: stretch;
+    gap: 1rem;
+    
+}
+.card-img img{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+
+.card-content{
+display: flex;
+flex-direction: column;
+padding: 1.5rem;
+gap: 1rem;
+}
+
+.heart-icon{
+    font-size: 30px;
+}
+
+.card-span{
+   
+    width: 30px;
+}
